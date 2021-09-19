@@ -4,6 +4,8 @@
   "description": "",
   "main": "deploy.js",
   "scripts": {
+    "bundle": "yarn browserify interact.js > bundle.js",
+    "start": "ganache-cli",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
